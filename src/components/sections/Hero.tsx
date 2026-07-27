@@ -113,7 +113,7 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* Right — Visual */}
+          {/* Right — Profile Image */}
           <motion.div
             variants={fadeInUp}
             initial="hidden"
@@ -121,14 +121,17 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
             className="hidden lg:flex justify-center"
           >
-            <div className="w-80 h-96 rounded-2xl bg-gradient-to-br from-blue-50 to-gray-50 border border-border flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-primary flex items-center justify-center">
-                  <span className="text-3xl font-bold text-white">AK</span>
-                </div>
-                <p className="text-text font-semibold">Anuj Kumar</p>
-                <p className="text-sm text-muted mt-1">MCA @ MANIT Bhopal</p>
+            <div className="relative">
+              <div className="w-80 h-80 rounded-2xl overflow-hidden border border-border shadow-sm">
+                <img
+                  src="/profile.jpg"
+                  alt="Anuj Kumar Gond — Software Developer"
+                  className="w-full h-full object-cover object-top"
+                  loading="eager"
+                />
               </div>
+              {/* Subtle decorative element */}
+              <div className="absolute -bottom-3 -right-3 w-80 h-80 rounded-2xl border border-blue-100 -z-10" />
             </div>
           </motion.div>
         </div>
