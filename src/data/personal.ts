@@ -7,7 +7,7 @@ export const personalInfo = {
   location: 'Bhopal, India',
   github: 'https://github.com/anujkumar220103',
   linkedin: 'https://www.linkedin.com/in/anujkumar2201/',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: 'https://drive.google.com/file/d/1_AKXO2FqpV8TizfoaDoQ-XzttOD9R4wB/view?usp=sharing',
   tagline: 'I build scalable web applications and AI-driven solutions with a focus on clean architecture, performance, and thoughtful user experiences.',
   about: `I'm a Software Developer and MCA student at Maulana Azad National Institute of Technology (MANIT), Bhopal. I specialize in building production-ready full-stack applications using React, Next.js, TypeScript, and Node.js. My experience spans from building Chrome extensions that integrate with REST APIs to developing machine learning pipelines for real-time predictions. I'm driven by solving complex problems with elegant, maintainable code.`,
 } as const
