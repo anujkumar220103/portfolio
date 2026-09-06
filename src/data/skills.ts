@@ -10,7 +10,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     title: 'Frontend',
-    skills: ['React', 'Next.js', 'Tailwind CSS', 'HTML/CSS', 'Framer Motion'],
+    skills: ['React', 'Next.js', 'Tailwind CSS', 'HTML/CSS'],
   },
   {
     title: 'Backend',
@@ -18,7 +18,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     title: 'Database',
-    skills: ['MySQL', 'MongoDB', 'PostgreSQL'],
+    skills: ['MySQL'],
   },
   {
     title: 'Tools',
