@@ -17,7 +17,7 @@ export const projects: Project[] = [
     subtitle: 'Full-stack platform with Chrome extension',
     description: 'A comprehensive job application management system that streamlines the job search process. Features secure authentication, full CRUD operations, and a Chrome Extension (MV3) that automatically extracts job details from LinkedIn, InternShala, and Unstop — saving them directly to the tracker.',
     role: 'Full Stack Developer — designed the system architecture, built the REST API layer, implemented JWT authentication, and developed the Chrome extension from scratch.',
-    technologies: ['Next.js', 'Prisma', 'MySQL', 'Express.js', 'TailwindCSS', 'JWT', 'Chrome Extension MV3'],
+    technologies: ['React', 'Next.js', 'Prisma', 'PostgreSQL', 'Express.js', 'TailwindCSS', 'JWT', 'Chrome Extension MV3'],
     features: [
       'Chrome Extension auto-extracts job details from multiple platforms',
       'Secure JWT authentication with protected routes and session handling',
